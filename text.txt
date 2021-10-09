@@ -1,0 +1,50 @@
+*
+
+*Log Name:      Microsoft-Windows-Kernel-PnP/Configuration
+Source:        Microsoft-Windows-Kernel-PnP
+Date:          8/28/2021 7:39:57 AM
+Event ID:      410
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      LAPTOP-7OG9UHE0
+Description:
+Device USB\VID_0080&PID_A001\MSFT30201503310007F was started.
+
+Driver Name: uaspstor.inf
+Class Guid: {4d36e97b-e325-11ce-bfc1-08002be10318}
+Service: UASPStor
+Lower Filters: 
+Upper Filters: 
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Kernel-PnP" Guid="{9c205a39-1250-487d-abd7-e831c6290539}" />
+    <EventID>410</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x4000000000000000</Keywords>
+    <TimeCreated SystemTime="2021-08-28T11:39:57.3474516Z" />
+    <EventRecordID>1336</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="13868" />
+    <Channel>Microsoft-Windows-Kernel-PnP/Configuration</Channel>
+    <Computer>LAPTOP-7OG9UHE0</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="DeviceInstanceId">USB\VID_0080&amp;PID_A001\MSFT30201503310007F</Data>
+    <Data Name="DriverName">uaspstor.inf</Data>
+    <Data Name="ClassGuid">{4d36e97b-e325-11ce-bfc1-08002be10318}</Data>
+    <Data Name="ServiceName">UASPStor</Data>
+    <Data Name="LowerFilters">
+    </Data>
+    <Data Name="UpperFilters">
+    </Data>
+    <Data Name="Problem">0x0</Data>
+    <Data Name="Status">0x0</Data>
+  </EventData>
+</Event>
